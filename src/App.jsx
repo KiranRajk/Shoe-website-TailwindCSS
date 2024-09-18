@@ -1,4 +1,4 @@
-import { Hero, PopularProducts, Services, CustomerReviews, Subscribe, Footer, SuperQuality } from "./sections";
+import { Hero, PopularProducts, Services, CustomerReviews, Subscribe, Footer, SuperQuality, SpecialOffer } from "./sections";
 import Nav from "./components/Nav";
 
 const App = () => (
@@ -18,7 +18,7 @@ const App = () => (
               <Services/>
           </section>
           <section className="padding">
-              
+              <SpecialOffer/>
           </section>
           <section className="bg-pale-blue padding">
               <CustomerReviews/>
